@@ -1,0 +1,10 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+    $classpath : "aria.widgets.form.DatePickerStyle",
+    $extends : "aria.widgets.form.TextInputStyle"
+}}
+    {var skinnableClassName="DatePicker"/}
+    
+{/CSSTemplate}

@@ -1,0 +1,9 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+    $classpath : "aria.widgets.form.SelectBoxStyle",
+    $extends : "aria.widgets.form.TextInputStyle"
+}}
+    {var skinnableClassName="SelectBox"/}
+{/CSSTemplate}

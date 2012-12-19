@@ -1,0 +1,1 @@
+goog.require('bot.action'); goog.exportSymbol('_', bot.action.submit);

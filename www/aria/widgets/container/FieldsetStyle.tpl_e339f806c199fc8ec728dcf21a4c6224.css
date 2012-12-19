@@ -1,0 +1,27 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+    $classpath : "aria.widgets.container.FieldsetStyle",
+    $extends : "aria.widgets.WidgetStyle"
+}}
+    {var skinnableClassName="Fieldset"/}
+    {var useFrame=true/}
+    
+    {macro writeState(info)}
+        {var state=info.state/}
+        .${cssPrefix(info)}label {
+            left: ${state.label.left}px;
+            top: ${state.label.top}px;
+            padding-top: ${state.label.paddingTop}px;
+            padding-left: ${state.label.paddingLeft}px;
+            padding-right: ${state.label.paddingRight}px;
+            padding-bottom: ${state.label.paddingBottom}px;
+            background-color: ${state.label.backgroundColor};
+            font-weight: ${state.label.fontWeight};
+            color: ${state.label.color};
+            position: absolute;
+        }
+    {/macro}
+    
+{/CSSTemplate}

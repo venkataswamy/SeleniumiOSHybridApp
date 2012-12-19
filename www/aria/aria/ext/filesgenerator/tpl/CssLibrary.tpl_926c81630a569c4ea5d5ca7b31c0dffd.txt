@@ -1,0 +1,13 @@
+/**
+ * Copyright Amadeus
+ */
+{TextTemplate {$classpath: 'aria.ext.filesgenerator.tpl.CssLibrary'}}
+{macro main()}\{CSSLibrary \{
+    \$classpath : "${data.$classpath}",
+    \$hasScript : ${data.$hasScript}
+\}\}
+    \{macro example()\}
+
+    \{/macro\}
+\{/CSSLibrary\}{/macro}
+{/TextTemplate}

@@ -1,0 +1,5 @@
+/*
+ * Copyright Amadeus
+ */
+Aria.classDefinition({$classpath:"aria.pageEngine.utils.HashManager",$dependencies:["aria.utils.HashManager"],$constructor:function(a){this._navigate=a||null;this._cache={};this._hashManager=aria.utils.HashManager;this._onHashChangeCallback={fn:this._onHashChange,scope:this};this._hashManager.addCallback(this._onHashChangeCallback)},$destructor:function(){this._hashManager.removeCallback(this._onHashChangeCallback);this._cache=this._navigate=this._hashManager=this._onHashChangeCallback=null},$prototype:{_onHashChange:function(){var a=
+this.getUrl(),b=this._cache[a];b&&this._navigate&&this.$callback(this._navigate,{pageId:b,url:a})},update:function(a){var b=a.url;if(b){this._cache[b]=a.pageId;this.getUrl()!=b&&this._hashManager.setHash(b)}},getUrl:function(){return this._hashManager.getHashString()},getPageId:function(){return this._cache[this.getUrl()]||null}}});

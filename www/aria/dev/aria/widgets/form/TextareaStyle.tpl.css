@@ -1,0 +1,9 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+    $classpath : "aria.widgets.form.TextareaStyle",
+    $extends : "aria.widgets.form.TextInputStyle"
+}}
+    {var skinnableClassName="Textarea"/}
+{/CSSTemplate}

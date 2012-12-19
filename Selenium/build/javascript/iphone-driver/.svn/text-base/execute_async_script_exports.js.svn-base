@@ -1,0 +1,1 @@
+goog.require('webdriver.iphone'); goog.exportSymbol('_', webdriver.iphone.executeAsyncScript);

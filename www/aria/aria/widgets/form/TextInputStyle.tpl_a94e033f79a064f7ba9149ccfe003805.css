@@ -1,0 +1,17 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+    $classpath : "aria.widgets.form.TextInputStyle",
+    $extends : "aria.widgets.WidgetStyle"
+}}
+    {var skinnableClassName="TextInput"/}
+    {var useFrame=true/}
+
+    {macro writeState(info)}
+        .${cssPrefix(info)}label {
+            font-weight: ${info.skinClass.label.fontWeight}
+        }
+    {/macro}
+
+{/CSSTemplate}

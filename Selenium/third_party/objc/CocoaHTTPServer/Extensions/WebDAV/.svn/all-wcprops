@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Extensions/WebDAV
+END
+DAVResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Extensions/WebDAV/DAVResponse.h
+END
+DAVConnection.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Extensions/WebDAV/DAVConnection.h
+END
+PUTResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Extensions/WebDAV/PUTResponse.m
+END
+DAVResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Extensions/WebDAV/DAVResponse.m
+END
+DAVConnection.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Extensions/WebDAV/DAVConnection.m
+END
+DELETEResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Extensions/WebDAV/DELETEResponse.h
+END
+DELETEResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Extensions/WebDAV/DELETEResponse.m
+END
+PUTResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Extensions/WebDAV/PUTResponse.h
+END

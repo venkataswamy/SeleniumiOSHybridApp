@@ -1,0 +1,15 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+    $classpath : "aria.widgets.form.GaugeStyle",
+    $extends : "aria.widgets.WidgetStyle"
+}}
+    {var skinnableClassName="Gauge"/}
+    
+    {macro writeSkinClass(info)}
+        .xGAUGE_progress_${info.skinClassName}{
+            {call background("transparent",info.skinClass.spriteUrl,"repeat-x")/}    
+        }
+    {/macro}
+{/CSSTemplate}

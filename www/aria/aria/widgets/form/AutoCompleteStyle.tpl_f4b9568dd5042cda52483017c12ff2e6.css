@@ -1,0 +1,9 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+    $classpath : "aria.widgets.form.AutoCompleteStyle",
+    $extends : "aria.widgets.form.TextInputStyle"
+}}
+    {var skinnableClassName="AutoComplete"/}
+{/CSSTemplate}

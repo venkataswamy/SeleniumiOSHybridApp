@@ -1,0 +1,6 @@
+/*
+ * Copyright Amadeus
+ */
+(function(){for(var b=document.getElementsByTagName("script"),h=b.length,c="",a="",e="",f=false,d=0;h>d;d++){var g=b[d].getAttribute("src");if(g.match(/fwk.js\?(.*)$/i)){b=""+RegExp.$1;if(b.match(/version=([\w\-\.]+)/i))c=""+RegExp.$1;if(b.match(/debug=true/i))f=true;if(b.match(/skin=([\w\-]+)/i))e=""+RegExp.$1;a=g.replace(/fwk.js\?.*$/i,"../..");a=a.replace(/([^\/\.]+\/\.\.\/)/gi,"").replace(/(\/[^\/\.]+\/\.\.)/gi,"");break}}Aria={rootFolderPath:a+"/"};if(c=="")alert("Aria Templates version number not found in fwk.js script arguments\nPlease check");
+else{if(f||document.location.href.indexOf("debug=true")!=-1){document.write('<script type="text/javascript">');document.write("var Aria={debug:true};");document.write("<\/script>")}if(document.location.href.indexOf("dev=true")!=-1){document.write('<script type="text/javascript" src="'+a+"/dev/aria/aria-templates-"+c);document.write('.js"><\/script>');Aria.rootFolderPath=a+"/dev/";document.write('<script type="text/javascript">Aria.rootFolderPath = "'+a+'/";aria.core.DownloadMgr.updateRootMap({"aria": {"*" : "'+
+a+'/dev/"}});<\/script>')}else{document.write('<script type="text/javascript" src="'+a+"/aria/aria-templates-"+c);document.write('.js"><\/script>')}document.write('<script type="text/javascript" src="'+a+"/css/"+e+"-"+c);document.write('.js"><\/script>')}})();

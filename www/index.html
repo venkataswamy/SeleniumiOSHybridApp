@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>HelloWorld</title>
+    </head>
+    <body class="mobile-app">
+        <div id="layout"></div>
+        <script type="text/javascript" charset="utf-8" src="cordova-1.5.0.js"></script>
+        
+        <script type="text/javascript" src="aria/aria-templates-1.3-2.js"></script>
+		<script type="text/javascript" src="css/atdefskin-1.3-2.js"></script>
+		
+		<div id="myContainer"></div>
+		<script type="text/javascript">
+            Aria.loadTemplate({
+                              classpath:"templates.Hello",
+                              div:"myContainer",
+                              data:{
+                              msg:"Hello World, this is AriaTemplates!"
+                              }
+                              });
+            </script>
+        
+        
+        
+    </body>
+</html>

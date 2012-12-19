@@ -1,0 +1,30 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+    $classpath : "aria.widgets.IconStyle",
+    $extends : "aria.widgets.WidgetStyle",
+    $dependencies : ["aria.widgets.environment.WidgetSettings"]
+}}
+    {var skinnableClassName="Icon"/}
+
+    {macro writeSkinClass(info)}
+        {var widgetSettings = aria.widgets.environment.WidgetSettings.getWidgetSettings() /}
+        
+        /* Icon class: ${info.skinClassName} */
+        .xICN${info.skinClassName} {
+            {if !widgetSettings.middleAlignment}vertical-align:top;{/if}
+            font-size:1px;
+            width:${info.skinClass.iconWidth}px;
+            height:${info.skinClass.iconHeight}px;
+            {call background("",info.skinClass.spriteURL,"no-repeat top left") /}
+        }
+        
+        {if info.skinClassName == "checkBoxes" && !widgetSettings.middleAlignment}
+            .xICN${info.skinClassName} {
+                vertical-align:middle;    
+            }
+        {/if}
+    {/macro}
+    
+{/CSSTemplate}

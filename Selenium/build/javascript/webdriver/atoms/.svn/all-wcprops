@@ -1,0 +1,347 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms
+END
+get_effective_style_ios_props_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/get_effective_style_ios_props_map.out
+END
+type_exports.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/type_exports.js
+END
+is_selected_exports.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/is_selected_exports.js
+END
+get_text_exports.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/get_text_exports.js
+END
+find_elements_ios_vars_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/find_elements_ios_vars_map.out
+END
+clear_exports.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/clear_exports.js
+END
+is_enabled_ios_props_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/is_enabled_ios_props_map.out
+END
+click_ios_props_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/click_ios_props_map.out
+END
+clear_ios_props_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/clear_ios_props_map.out
+END
+get_attribute_ios.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/get_attribute_ios.js
+END
+submit_ios.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/submit_ios.js
+END
+find_element_ios_props_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/find_element_ios_props_map.out
+END
+type_ios_vars_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/type_ios_vars_map.out
+END
+get_text_ios_vars_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/get_text_ios_vars_map.out
+END
+is_selected_ios_vars_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/is_selected_ios_vars_map.out
+END
+get_location_ios.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/get_location_ios.js
+END
+clear_ios_vars_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/clear_ios_vars_map.out
+END
+is_displayed_ios.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/is_displayed_ios.js
+END
+get_attribute_exports.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/get_attribute_exports.js
+END
+submit_exports.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/submit_exports.js
+END
+get_attribute_ios_props_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/get_attribute_ios_props_map.out
+END
+get_effective_style_ios.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/get_effective_style_ios.js
+END
+get_location_exports.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/get_location_exports.js
+END
+is_displayed_exports.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/is_displayed_exports.js
+END
+click_ios.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/click_ios.js
+END
+get_attribute_ios_vars_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/get_attribute_ios_vars_map.out
+END
+is_enabled_ios.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/is_enabled_ios.js
+END
+execute_script_ios.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/execute_script_ios.js
+END
+submit_ios_vars_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/submit_ios_vars_map.out
+END
+find_element_ios.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/find_element_ios.js
+END
+get_effective_style_exports.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/get_effective_style_exports.js
+END
+get_location_ios_vars_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/get_location_ios_vars_map.out
+END
+is_displayed_ios_vars_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/is_displayed_ios_vars_map.out
+END
+type_ios_props_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/type_ios_props_map.out
+END
+is_selected_ios_props_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/is_selected_ios_props_map.out
+END
+get_text_ios_props_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/get_text_ios_props_map.out
+END
+is_enabled_exports.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/is_enabled_exports.js
+END
+click_exports.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/click_exports.js
+END
+execute_script_exports.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/execute_script_exports.js
+END
+execute_script_ios_props_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/execute_script_ios_props_map.out
+END
+get_effective_style_ios_vars_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/get_effective_style_ios_vars_map.out
+END
+find_element_exports.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/find_element_exports.js
+END
+is_enabled_ios_vars_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/is_enabled_ios_vars_map.out
+END
+click_ios_vars_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/click_ios_vars_map.out
+END
+execute_script_ios_vars_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/execute_script_ios_vars_map.out
+END
+find_elements_ios.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/find_elements_ios.js
+END
+find_element_ios_vars_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/find_element_ios_vars_map.out
+END
+submit_ios_props_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/submit_ios_props_map.out
+END
+type_ios.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/type_ios.js
+END
+deps.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/deps.js
+END
+get_location_ios_props_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/get_location_ios_props_map.out
+END
+is_selected_ios.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/is_selected_ios.js
+END
+get_text_ios.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/get_text_ios.js
+END
+is_displayed_ios_props_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/is_displayed_ios_props_map.out
+END
+find_elements_exports.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/find_elements_exports.js
+END
+clear_ios.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/clear_ios.js
+END
+find_elements_ios_props_map.out
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/Selenium/build/javascript/webdriver/atoms/find_elements_ios_props_map.out
+END

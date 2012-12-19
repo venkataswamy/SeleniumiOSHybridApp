@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/Selenium/iphone
+END
+RunIPhoneUnitTest.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/Selenium/iphone/RunIPhoneUnitTest.sh
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/Selenium/iphone/.classpath
+END
+iphone.iml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/Selenium/iphone/iphone.iml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/Selenium/iphone/.project
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/Selenium/iphone/Info.plist
+END
+Tests-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/Selenium/iphone/Tests-Info.plist
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/Selenium/iphone/pom.xml
+END
+build.desc
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/Selenium/iphone/build.desc
+END

@@ -1,0 +1,153 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+    $classpath : "aria.widgets.GlobalStyle",
+    $dependencies : ["aria.widgets.environment.WidgetSettings","aria.widgets.AriaSkinInterface"],
+    $extends: "aria.widgets.WidgetStyle"
+}}
+
+{macro main()}
+    {var general = aria.widgets.AriaSkinInterface.getGeneral()/}
+/* Note: all private classes start with 'x' - these classes must not be used in application pages as they can change when new features are implemented */
+
+/* BACKWARD-COMPATIBILITY-BEGIN */
+/* CSS rules added by Aria Templates itself should not impact the whole page */
+
+/* Global classes */
+body, textarea, select, input, button, table {
+{if general.font.size}
+    font-size: ${general.font.size}px;
+{/if}
+{if general.font.family}
+    font-family: ${general.font.family};
+{/if}
+}
+body {
+    padding: 0;
+    margin: 0;
+    cursor:default;
+{if general.colors.bkg}
+    background-color: ${general.colors.bkg};
+{/if}
+}
+
+a {
+{call writeAnchorState(general.anchor.states.normal)/}
+}
+a:link {
+{call writeAnchorState(general.anchor.states.link)/}
+}
+a:visited {
+{call writeAnchorState(general.anchor.states.visited)/}
+}
+a:hover {
+{call writeAnchorState(general.anchor.states.hover)/}
+}
+
+{if ! general.disable.ul.list.style}
+ul, li {list-style-type:none;}
+{/if}
+
+/* Hide input focus on safari*/
+{if aria.core.Browser.isSafari || aria.core.Browser.isChrome}
+*:focus {
+    outline: 0;
+}
+{/if}
+
+a:focus {
+{call writeAnchorState(general.anchor.states.focus)/}
+}
+
+/* BACKWARD-COMPATIBILITY-END */
+
+.xLDI {
+    {call background(general.loadingOverlay.backgroundColor, general.loadingOverlay.spriteURL,"no-repeat center center")/}
+    {call opacity(general.loadingOverlay.opacity)/}
+}
+
+.xOverlay {
+    background-color: ${general.overlay.backgroundColor};
+    {call opacity(general.overlay.opacity)/}
+    border: ${general.overlay.border};
+}
+
+/*AT Widget wrapper DOMElm */
+{var widgetSettings = aria.widgets.environment.WidgetSettings.getWidgetSettings() /}
+.xWidget {
+    position: relative;
+    display: inline-block;
+    {if widgetSettings.middleAlignment}vertical-align: middle;{/if}
+}
+
+.xWidget.xBlock, .xBlock {
+    display: block;
+}
+
+/* Mask for modal dialogs */
+.xDialogMask {
+    /* width and height are required for IE6 to work correctly */
+    width:100%;
+    height:100%;
+    background-color: ${general.dialogMask.backgroundColor};
+    {call opacity(general.dialogMask.opacity || 40) /}
+}
+
+.xFrameContent {
+    display: inline-block;
+    position:relative;
+    padding: 0 0 0 0 !important;
+    border: 0 0 0 0 !important;
+}
+
+.xFixedHeightFrame_w {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    vertical-align: {if widgetSettings.middleAlignment}middle{else/}top{/if};
+}
+.xFixedHeightFrame_bme {
+    display: inline-block;
+    vertical-align: {if widgetSettings.middleAlignment}middle{else/}top{/if};
+}
+.xSimpleFrame {
+    display: inline-block;
+    position: relative;
+}
+
+{if aria.core.Browser.isIE7 }
+.xFixedHeightFrame_w {
+    vertical-align:top;
+}
+
+.xFixedHeightFrame_bme {
+    vertical-align:top;
+}
+{/if}
+
+{if aria.core.Browser.isIE10 }
+.xTextInputInput::-ms-clear {
+    display: none;
+}
+.xTextInputInput::-ms-reveal {
+    display: none;
+}
+{/if}
+{/macro}
+
+/* BACKWARD-COMPATIBILITY-BEGIN */
+{macro writeAnchorState(state)}
+{if state.color}
+    color: ${state.color};
+{/if}
+{if state.text.decoration}
+    text-decoration: ${state.text.decoration};
+{/if}
+{if state.outline}
+    outline: ${state.outline};
+{/if}
+{/macro}
+/* BACKWARD-COMPATIBILITY-END */
+
+{/CSSTemplate}

@@ -1,0 +1,45 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+    $classpath : "aria.widgets.container.DivStyle",
+    $extends: "aria.widgets.WidgetStyle"
+}}
+
+{var skinnableClassName="Div"/}
+{var useFrame=true/}
+
+{macro main()}
+
+// THE 4 CSS CLASSES BELOW ARE PROBABLY NO LONGER USED AND SHOULD BE REMOVED
+
+/* DIV Top row */
+.xDIVtr {
+    position:relative;
+    zoom:1;
+    _overflow-y:hidden;
+    padding:0px;
+}
+/* DIV Top row corner*/
+.xDIVtrc {
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+    _height:1600px; /* arbitrary long height, IE 6 */
+}
+/* DIV Bottom row */
+.xDIVbr {
+    position:relative;
+    width:100%;
+    font-size:1px;
+}
+/* DIV Bottom row corner*/
+.xDIVbrc {
+    position:relative;
+}
+
+{call startLooping()/}
+
+{/macro}
+{/CSSTemplate}

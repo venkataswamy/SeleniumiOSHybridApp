@@ -1,0 +1,10 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+    $classpath : "aria.widgets.form.CheckBoxStyle",
+    $extends : "aria.widgets.WidgetStyle"
+}}
+    {var skinnableClassName="CheckBox"/}
+    
+{/CSSTemplate}

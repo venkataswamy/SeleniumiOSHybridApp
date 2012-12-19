@@ -1,0 +1,74 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+    $classpath : "aria.templates.GlobalStyle"
+}}
+
+{macro main()}
+
+.xLDI-text {
+    position: relative;
+    top: 50%;
+    display:block;
+    text-align:center;
+    padding-top: 20px;
+}
+
+.xLDI {
+	/* These default values can be overridden in the skin */
+    background-color: #fff;
+    {call opacity(80)/}
+}
+
+.xOverlay {
+	/* These default values can be overridden in the skin */
+    background-color: #ddd;
+    border: 1px solid black;
+    {call opacity(40)/}
+}
+
+.xModalMask-default {
+    width:100%;
+    height:100%;
+    background-color: black;
+    {call opacity(40)/}
+}
+
+.xOverflowAuto {
+    overflow: auto;
+}
+
+.xOverflowHidden {
+    overflow: hidden;
+}
+
+.xOverflowXAuto {
+    overflow-x: auto;
+}
+
+.xOverflowYAuto {
+    overflow-y: auto;
+}
+
+.xOverflowXHidden {
+    overflow-x: hidden;
+}
+
+.xOverflowYHidden {
+    overflow-y: hidden;
+}
+
+/* template div container style */
+.xTplContent {
+}
+
+{/macro}
+
+{macro opacity(percent)}
+    filter: alpha(opacity=${percent});
+    -moz-opacity: ${percent/100};
+    opacity: ${percent/100};
+{/macro}
+
+{/CSSTemplate}

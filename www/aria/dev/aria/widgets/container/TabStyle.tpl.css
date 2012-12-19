@@ -1,0 +1,26 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+    $classpath : "aria.widgets.container.TabStyle",
+    $extends : "aria.widgets.WidgetStyle"
+}}
+    {var skinnableClassName="Tab"/}
+    {var useFrame=true/}
+    
+    {macro main()}
+        .xTab_std_selectedFocused_c {
+            outline: 1px dotted;
+        }
+        
+        .xTab_std_normalFocused_c {
+            outline: 1px dotted;
+        }
+        
+        .xTab_std_msoverFocused_c {
+            outline: 1px dotted;
+        }
+        {call startLooping()/}
+    {/macro}
+    
+{/CSSTemplate}

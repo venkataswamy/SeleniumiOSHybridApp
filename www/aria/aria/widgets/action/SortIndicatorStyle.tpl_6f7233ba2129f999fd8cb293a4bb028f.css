@@ -1,0 +1,20 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+    $classpath : "aria.widgets.action.SortIndicatorStyle",
+    $extends : "aria.widgets.WidgetStyle"
+}}
+    {var skinnableClassName="SortIndicator"/}
+    
+    {macro main()}
+        a.sortIndicatorLink label {
+            cursor:pointer;    
+        }
+        a.sortIndicatorLink:focus {
+            border-bottom:1px dotted #000;
+        }
+        {call startLooping()/}
+    {/macro}
+    
+{/CSSTemplate}

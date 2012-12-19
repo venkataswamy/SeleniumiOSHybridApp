@@ -1,0 +1,9 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+    $classpath : "aria.widgets.form.MultiSelectStyle",
+    $extends : "aria.widgets.form.TextInputStyle"
+}}
+    {var skinnableClassName="MultiSelect"/}
+{/CSSTemplate}

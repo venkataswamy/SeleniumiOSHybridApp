@@ -1,0 +1,21 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+    $classpath : "aria.widgets.action.LinkStyle",
+    $extends : "aria.widgets.WidgetStyle"
+}}
+    {var skinnableClassName="Link"/}
+
+    {macro writeState(info)}
+        {var pseudoclass=""/}
+        {if info.stateName != "normal"}
+            {set pseudoclass=":"+info.stateName/}
+        {/if}
+        
+        a${pseudoclass}.xLink_${info.skinClassName} {
+            color:${info.state.color};
+        }
+    {/macro}
+    
+{/CSSTemplate}

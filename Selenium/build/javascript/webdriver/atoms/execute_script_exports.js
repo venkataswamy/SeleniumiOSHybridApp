@@ -1,0 +1,1 @@
+goog.require('bot.inject'); goog.exportSymbol('_', bot.inject.executeScript);

@@ -1,0 +1,58 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+    $classpath : "aria.widgets.container.SplitterStyle",
+    $extends : "aria.widgets.WidgetStyle"
+}}
+    {var skinnableClassName="Splitter"/}
+    
+    {macro writeSkinClass(info)}
+        {var skinClassName=info.skinClassName/}
+        {var skinClass=info.skinClass/}
+
+/* Splitter classes */
+
+.xSplitter_${skinClassName}_sHandleH {
+  position:absolute;
+  height:${skinClass.separatorHeight}px;   
+  cursor: n-resize;
+  display:block;
+  {call background(skinClass.handleBackgroundColor,skinClass.handleSpriteURLh,"no-repeat center top")/} 
+}
+  
+.xSplitter_${skinClassName}_sContainer{
+  position:relative;
+  display:inline-block; 
+}
+
+.xSplitter_${skinClassName}_sConstrained{
+  width:100%;
+  height:100%;
+  display:inline-block; 
+  position:absolute;
+}
+
+.xSplitter_${skinClassName}_sSplitBarProxyH{
+  position:absolute;
+  height:${skinClass.separatorHeight}px;
+  cursor: n-resize;
+  display:block;
+  z-index:9999; 
+  width:100%; 
+  {call background(skinClass.proxyBackgroundColor,skinClass.proxySpriteURLh,"no-repeat center top")/} 
+}
+
+.xSplitter_${skinClassName}_sBdr{
+   border:1px solid ${skinClass.borderColor} ;
+}
+
+.xSplitter_${skinClassName}_sMacro {
+  position:absolute;
+  overflow: auto;
+  display:block;
+}
+
+    {/macro}
+    
+{/CSSTemplate}

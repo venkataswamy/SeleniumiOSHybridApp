@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/src/objc/Session.m \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/src/objc/Session.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/lib/buildtime-src/cocoahttpserver/extensions/HTTPVirtualDirectory.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/lib/buildtime-src/cocoahttpserver/extensions/HTTPResource.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/../third_party/objc/CocoaHTTPServer/Core/HTTPResponse.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/src/objc/Cookie.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/src/objc/ElementStore.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/src/objc/JSONRESTResource.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/src/objc/HTTPJSONResponse.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/../third_party/objc/CocoaHTTPServer/Core/Responses/HTTPDataResponse.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/src/objc/HTTPResponse+Utility.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/src/objc/HTTPServerController.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/src/objc/HTTPVirtualDirectory+AccessViewController.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/src/objc/HTTPVirtualDirectory+Remove.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/src/objc/Session+ExecuteScript.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/src/objc/SessionRoot.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/src/objc/Storage.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/src/objc/Timeouts.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/src/objc/WebDriverResource.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/src/objc/WebDriverResponse.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/src/objc/WebDriverUtilities.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/src/objc/WebViewController.h \
+  /Users/user/Desktop/selenium-uiwebview-readonly/Selenium/iphone/src/objc/Database.h

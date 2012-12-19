@@ -1,0 +1,10 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+    $classpath : "aria.widgets.form.RadioButtonStyle",
+    $extends : "aria.widgets.form.CheckBoxStyle"
+}}
+    {var skinnableClassName="RadioButton"/}
+    
+{/CSSTemplate}

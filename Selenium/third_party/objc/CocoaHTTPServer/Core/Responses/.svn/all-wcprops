@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Core/Responses
+END
+HTTPAsyncFileResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Core/Responses/HTTPAsyncFileResponse.h
+END
+HTTPDataResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Core/Responses/HTTPDataResponse.m
+END
+HTTPFileResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Core/Responses/HTTPFileResponse.h
+END
+HTTPRedirectResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Core/Responses/HTTPRedirectResponse.h
+END
+HTTPAsyncFileResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Core/Responses/HTTPAsyncFileResponse.m
+END
+HTTPFileResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Core/Responses/HTTPFileResponse.m
+END
+HTTPDynamicFileResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Core/Responses/HTTPDynamicFileResponse.h
+END
+HTTPRedirectResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Core/Responses/HTTPRedirectResponse.m
+END
+HTTPDynamicFileResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Core/Responses/HTTPDynamicFileResponse.m
+END
+HTTPDataResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/Selenium/third_party/objc/CocoaHTTPServer/Core/Responses/HTTPDataResponse.h
+END
